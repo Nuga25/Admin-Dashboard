@@ -20,7 +20,7 @@ svg {
 #container {
     display: grid;
     grid-template-columns: 1fr  3fr 1fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: .5fr 6fr;
 }
 
 .header {
@@ -158,7 +158,7 @@ svg {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 25px;
 }
 
@@ -167,7 +167,7 @@ svg {
     border-left: 3px solid #f59e0b;
     padding: 15px;
     border-radius: 8px;
-    height: 255px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
